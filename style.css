@@ -156,11 +156,13 @@ img{
 
 .qna{
 	grid-area: questions;
+	margin: 2rem 0;
 
 }
 
 .qna h1{
 	text-align: center;
+	margin-bottom: 2rem;
 }
 
 .q{
@@ -270,9 +272,15 @@ img{
 		font-size: .8rem;
 	}
 
-	.gallery-img{
+	.gallery-img , 
+	.q
+	{
 		width: 90%;
 		margin: auto;
+	}
+
+	.q{
+		margin-bottom: 1rem;
 	}
 
 	.gallery-img img{
